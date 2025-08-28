@@ -1,7 +1,7 @@
 public class PrimeChecker {
 
     public static void main(String[] args) {
-        int number = 29; // The number to check for primality
+        int number = 29; 
 
         if (isPrime(number)) {
             System.out.println(number + " is a prime number.");
@@ -10,7 +10,7 @@ public class PrimeChecker {
         }
     }
     public static boolean isPrime(int n) {
-        // Handle edge cases: 0, 1, and negative numbers are not prime
+        
         if (n <= 1) {
             return false;
         }
